@@ -814,6 +814,13 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.col-sm-4 ul
+{
+    display: flex;
+    flex : row;
+
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
