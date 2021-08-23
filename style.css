@@ -814,12 +814,21 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer_list
 {
     display: flex;
     flex-direction : row;
     justify-content: space-between;
-
+    margin-top: 8px;
 }
 
 @media (max-width: 1024px) {
