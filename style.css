@@ -829,6 +829,8 @@ h4 {
     flex-direction : row;
     justify-content: space-between;
     margin-top: 8px;
+    width: 100%;
+    list-style: none;
 }
 
 @media (max-width: 1024px) {
